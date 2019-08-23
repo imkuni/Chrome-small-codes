@@ -1,0 +1,3 @@
+chrome.tabs.executeScript(null, {
+        code: "redirectWindow = window.open('https://translate.google.com/#view=home&op=translate&sl=en&tl=tr&text='+term);"
+    });
